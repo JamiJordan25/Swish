@@ -556,13 +556,8 @@ Copyright (c) 2014 Daniel Eden
 .bounceIn {
   -webkit-animation-name: bounceIn;
           animation-name: bounceIn;
-  -webkit-animation-duration: .5s;
-          animation-duration: .5s;
-          animation-fadeOut: .5s;
-}
-
-.wow.fade-out.bounceIn {
-  animation: bounceIn 0.5s, fadeOut 3s 3.5s forwards;
+  -webkit-animation-duration: .75s;
+          animation-duration: .75s;
 }
 
 @-webkit-keyframes bounceInDown {
@@ -1298,9 +1293,6 @@ Copyright (c) 2014 Daniel Eden
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
           animation-name: fadeInUp;
-}
-.wow.fade-out.fadeInUp {
-  animation: fadeInUp 1s, fadeOut 3s 4s forwards;
 }
 
 @-webkit-keyframes fadeInUpBig {
@@ -3164,16 +3156,3 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-name: slideOutUp;
           animation-name: slideOutUp;
 }
-.wow.fade-out {
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
