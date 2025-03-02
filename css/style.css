@@ -319,9 +319,17 @@ padding-bottom: 12px;
 #trainer img {
 width: 100%;
 }
+
 video {
   width: 100%;
-  height: auto; /* Adjusted to maintain aspect ratio */
+  height: auto;
+  max-width: 372px; /* Adjust the width */
+  max-height: 462px; /* Adjust the height */
+  object-fit: cover; /* Ensure the video covers the area without stretching */
+  margin: 0 auto; /* Center the video */
+  margin-top: -8px; /* Center the video */
+  margin-bottom: -8px; /* Center the video */
+  padding: 10px; /* Add padding around the video */
 }
 
 #trainer .trainer-thumb {
